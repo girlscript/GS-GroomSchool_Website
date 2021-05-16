@@ -11,6 +11,7 @@ Contents
 
 var(--secondary-color)
 var(--primary-color)
+var(--tertiary-color)
 */
 
 
@@ -24,10 +25,14 @@ var(--primary-color)
     
 }
 
+section {
+    padding: 4vh 4vh;
+}
+
 :root {
     --primary-color: #0A1428;
     --secondary-color: #F24611;
-
+    --tertiary-color : #6D6D6D;
   }
   
 
@@ -41,7 +46,7 @@ header .navbar__custom{
 
 
 .banner {
-    margin-top: 13%;
+    margin-top: 10%;
     height: 75vh;
     background-color:var(--primary-color) ;
     border-radius: 22px;
@@ -50,7 +55,7 @@ header .navbar__custom{
 .girl_banner{
     position: absolute;
     right: 9%;
-    bottom: 4.5%;
+    bottom: 5%;
 }
 
 .banner_content{
@@ -87,6 +92,118 @@ header .navbar__custom{
     color:var(--primary-color) ;
 }
 
+.process_section{
+    margin: 0vw 4vw;
+}
+.process_card{
+    border: 5px solid #FFF5F2;
+box-sizing: border-box;
+border-radius: 12px;
+padding: 3vh 3vh;
+}
+
+.process_card:hover{
+    background: #FFF5F2;
+}
+
+.process_card--icon{
+    min-height: 15vh;
+    margin:5vw 6vw 3vw;
+    background: #F24611;
+box-shadow: 0px 22px 22px -10px #F7AD97;
+border-radius: 12px;
+}
+
+.process_card--content__heading{
+    font-weight: bold;
+font-size: 2.4rem;
+line-height: 33px;
+text-align: center;
+letter-spacing: -0.02em;
+}
+
+.process_card--content__description{
+  padding-top: 4%;
+    color: var(--tertiary-color);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.arrow1{
+    position: absolute;
+    top: 144vh;
+    left: 28vw;
+}
+
+.arrow2{
+    position: absolute;
+    top: 144vh;
+    left: 56vw;
+}
+
+
+.track_section{
+    margin-top: 3%;
+}
+
+ul.track_nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    overflow: hidden;
+    display:inline;
+    padding-left: 15%;
+}
+
+ul.track_nav li{
+    display:inline;
+    padding-top: 25%;
+}
+
+.track-item{
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 2rem;
+text-align: center;
+letter-spacing: -0.02em;
+color: #0A1428;
+opacity: 0.3;
+margin-left: 8vh;
+}
+
+.track-item:first-child{
+    margin-left: 4vh; 
+}
+
+
+.track-item.active {
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #0A1428;
+opacity: 1;
+line-height: 5vh;
+border-bottom: 4px solid var(--secondary-color);
+
+}
+
+.track_container{
+    padding: 5% 0% 5% 18% ;
+}
+
+.accordion_section{
+    margin-left: 15vw;
+}
+
+.accordion__heading{
+color: var(--secondary-color);
+font-weight: bold;
+}
 
 @media(max-width:700px)
 {
@@ -104,8 +221,6 @@ header .navbar__custom{
         margin-left: 3vw;
     }
 
-
-
     .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:before {
         border-bottom: 6px solid var(--secondary-color);
         width:40%;
@@ -122,3 +237,70 @@ header .navbar__custom{
 
 } 
 
+@media(min-width:1920px)
+{
+    .girl_banner{
+        position: absolute;
+        right: 20%;
+        bottom: 8%;
+    }
+
+    .process_card--icon{
+        min-height: 15vh;
+        margin:5vw 3vw 3vw;
+        background: #F24611;
+    box-shadow: 0px 22px 22px -10px #F7AD97;
+    border-radius: 12px;
+    }
+
+    .arrow1{
+        position: absolute;
+        top: 140vh;
+        left: 34.5vw;
+    }
+    
+    .arrow2{
+        position: absolute;
+        top: 140vh;
+        left: 54vw;
+    }
+}
+
+
+
+
+.accordion-button{
+    display: block;
+}
+
+.question_text{
+    padding-left: 3%;
+    font-style: normal;
+font-weight: bold;
+font-size: 1.2rem;
+line-height: 141.9%;
+color:#0A1428;
+}
+
+.answer_text {
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 140%;
+color: #6D6D6D;
+text-align: justify;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: white;
+}
+
+.accordion-body {
+    padding-left: 12%;
+}
+
+.faq-caret{
+    color:#0A1428;;
+}
