@@ -32,6 +32,7 @@ section {
 :root {
     --primary-color: #0A1428;
     --secondary-color: #F24611;
+    --secondary-color--dark: #a72e09;
     --tertiary-color : #6D6D6D;
   }
   
@@ -83,6 +84,13 @@ header .navbar__custom{
     margin-top: 3vh;
 }
 
+.banner--button:hover{
+    background-color:var(--secondary-color--dark) ;
+    transition: 0.5s;
+}
+
+
+
 .section--heading{
     font-family: Manrope;
     font-style: normal;
@@ -104,6 +112,9 @@ padding: 3vh 3vh;
 
 .process_card:hover{
     background: #FFF5F2;
+    box-shadow: 0px 22px 22px -10px #a5a5a5;
+    transition: 1s;
+    
 }
 
 .process_card--icon{
@@ -158,7 +169,6 @@ ul.track_nav{
 
 ul.track_nav li{
     display:inline;
-    padding-top: 25%;
 }
 
 .track-item{
@@ -172,6 +182,7 @@ letter-spacing: -0.02em;
 color: #0A1428;
 opacity: 0.3;
 margin-left: 8vh;
+cursor: pointer;
 }
 
 .track-item:first-child{
@@ -192,6 +203,10 @@ border-bottom: 4px solid var(--secondary-color);
 
 }
 
+.track_tab{
+     display: none;
+}
+
 .track_container{
     padding: 5% 0% 5% 18% ;
 }
@@ -209,6 +224,10 @@ font-weight: bold;
 {
     .md-only{
         display:none !important;
+    }
+    
+    .career_img{
+        width: 25%;
     }
 } 
 
