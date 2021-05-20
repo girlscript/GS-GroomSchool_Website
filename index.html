@@ -16,6 +16,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==' crossorigin='anonymous'/> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <meta name="theme-color" content="#F24611" />
     <script src="js/wow.min.js"></script>
     <script>
@@ -25,10 +26,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light  navbar__custom">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light  navbar__custom" >
             <div class="container">
               <a class="navbar-brand" href="#">
-                  <img src="assets/img//logo.svg">
+                  <img src="assets/img/logo.svg" class="img-responsive groom_school--logo">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -60,13 +61,15 @@
     <main>
         <section id="home">
             <div class="container banner_rd">
+              <img src="assets/img/bg_banner.jpg" class="sm-only bg_image_banner">
                  <div class="banner">
                       <div class="row">
-                          <div class="col-md-6  col-sm-12">
+                          <div class="col-md-6  col-sm-12 sm-nopadding sm-nomargin">
                               <div class="banner_content ">
                                 <h1 class="text-white banner--heading"> Grooming Your Future!</h1>
                                 <p class="text-white banner--description">We’re working to change lives by imparting tech education and relevant skills</p>
                                 <button type="button" class="banner--button">Apply Now</button>
+                               
                             </div>
                            
                           </div>
@@ -87,16 +90,16 @@
                     </div>
                 </div>
                   <div class="row process_section">
-                      <div class="col-md-4">
+                      <div class="col-md-4 col-sm-12 card__row">
                         <img src="assets/img/arrow_1.svg" class="img-responsive arrow1 md-only">
                        <div class="process_card text-center">
                            <div class="process_card--icon">
                                 
                            </div>
                            <div class="process_card--content ">
-                                <div class="process_card--content__heading ">
-                                 <h3> Registration Form </h3>
-                                </div>
+                               
+                                  <h3 class="process_card--content__heading "> Registration Form </h3>
+                               
                                 <div class="process_card--content__description">
                                      <p class="text-center"> Fill in simple registration form with your educational details  and win a chance to secure scholarships </p>
                                 </div>
@@ -106,16 +109,15 @@
                        
                        </div>
                     
-                       <div class="col-md-4">
+                       <div class="col-md-4 col-sm-12 card__row">
                         <img src="assets/img/arrow_2.svg" class="img-responsive arrow2 md-only">
                         <div class="process_card text-center">
                             <div class="process_card--icon">
                                  
                             </div>
                             <div class="process_card--content ">
-                                 <div class="process_card--content__heading ">
-                                  <h3> Choose Track </h3>
-                                 </div>
+                             
+                                 <h3 class="process_card--content__heading ">Choose Track </h3>
                                  <div class="process_card--content__description">
                                       <p class="text-center"> Choose a track from 3 different   tracks according to  your future goal  and eligibility </p>
                                  </div>
@@ -123,15 +125,13 @@
  
                          </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-12 card__row">
                           <div class="process_card text-center">
                               <div class="process_card--icon">
                                    
                               </div>
                               <div class="process_card--content ">
-                                   <div class="process_card--content__heading ">
-                                    <h3> Skill Test </h3>
-                                   </div>
+                                    <h3  class="process_card--content__heading "> Skill Test </h3>
                                    <div class="process_card--content__description">
                                         <p class="text-center"> Set of tasks and test that needs to be submitted under 24 hours to secure your admission at groom school </p>
                                    </div>
@@ -170,7 +170,7 @@
                         <div id="career_exploration" class="track_tab ">
                            <div class="row">
                              <div class="col-md-3 col-sm-12 wow animate__fadeIn"  data-wow-duration="1s">
-                               <img class="career_img" src="assets/img/career.svg" alt="Career Exploration" class="img-responsive ">
+                               <img class="career_img md-only img-responsive" src="assets/img/career.svg" alt="Career Exploration" >
                              </div>
                              <div class="col-md-8 col-sm-12">
                               <div class="accordion_section wow animate__fadeIn " data-wow-duration="1s">
@@ -215,11 +215,11 @@
 
                         <div id="career_development" class="track_tab">
                           <div class="row">
-                            <div class="col-3">
-                              <img src="assets/img/career.svg" alt="Career Development">
+                            <div class="col-md-3 col-sm-12 wow animate__fadeIn"  data-wow-duration="1s">
+                              <img src="assets/img/career.svg" alt="Career Development " class="img-responsive md-only">
                             </div>
                             <div class="col-8">
-                             <div class="accordion_section">
+                            <div class="accordion_section wow animate__fadeIn " data-wow-duration="1s">
                                <h1 class="accordion__heading">Career <br> Development Track</h1> <br> <br>
                                <div class="accordion accordion-flush" id="accordionFlushExample">
                                  <div class="accordion-item">
@@ -261,11 +261,11 @@
 
                         <div id="build_track" class="track_tab">
                         <div class="row">
-                          <div class="col-3">
-                            <img src="assets/img/career.svg" alt="Career Development">
+                          <div class="col-md-3 col-sm-12 wow animate__fadeIn"  data-wow-duration="1s">
+                            <img src="assets/img/career.svg" alt="Career Development" class="md-only">
                           </div>
                           <div class="col-8">
-                           <div class="accordion_section">
+                          <div class="accordion_section wow animate__fadeIn " data-wow-duration="1s">
                              <h1 class="accordion__heading">Build Track</h1> <br> <br>
                              <div class="accordion accordion-flush" id="accordionFlushExample">
                                <div class="accordion-item">
@@ -307,11 +307,11 @@
 
                        <div id="launch_track" class="track_tab">
                       <div class="row">
-                        <div class="col-3">
-                          <img src="assets/img/career.svg" alt="Career Development">
+                        <div class="col-md-3 col-sm-12 wow animate__fadeIn"  data-wow-duration="1s">
+                          <img src="assets/img/career.svg" alt="Career Development" class="md-only">
                         </div>
                         <div class="col-8">
-                         <div class="accordion_section">
+                        <div class="accordion_section wow animate__fadeIn " data-wow-duration="1s">
                            <h1 class="accordion__heading">Launch  Track</h1> <br> <br>
                            <div class="accordion accordion-flush" id="accordionFlushExample">
                              <div class="accordion-item">

@@ -37,6 +37,9 @@ section {
   }
   
 
+  .sm-only{
+    display:none !important;
+}
 
 
 
@@ -127,7 +130,7 @@ border-radius: 12px;
 
 .process_card--content__heading{
     font-weight: bold;
-font-size: 2.4rem;
+font-size: 1.6rem;
 line-height: 33px;
 text-align: center;
 letter-spacing: -0.02em;
@@ -219,17 +222,6 @@ border-bottom: 4px solid var(--secondary-color);
 color: var(--secondary-color);
 font-weight: bold;
 }
-
-@media(max-width:700px)
-{
-    .md-only{
-        display:none !important;
-    }
-    
-    .career_img{
-        width: 25%;
-    }
-} 
 
 @media(min-width:700px)
 {
