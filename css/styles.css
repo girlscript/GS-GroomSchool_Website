@@ -74,8 +74,8 @@ header .navbar__custom{
 }
 
 .banner--description{
-    font-weight: 200;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 140%;
 }
 
@@ -314,4 +314,38 @@ text-align: justify;
 
 .faq-caret{
     color:#0A1428;;
+}
+
+.footer__dark__bg{
+    background-color: #070e1b;
+}
+
+.footer__dark__bg{
+    padding: 1%;
+    padding-left: 2%;
+}
+
+.footer_section{
+    background-color: var(--primary-color);
+    padding: 2%;
+   
+}
+
+.ctc_section{
+    background-color: var(--secondary-color);
+    padding: 1%;
+}
+
+.cta_section--text{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 0.8%;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    color: var(--primary-color);
 }
