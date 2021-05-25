@@ -16,6 +16,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==' crossorigin='anonymous'/> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <meta name="theme-color" content="#F24611" />
     <script src="js/wow.min.js"></script>
     <script>
@@ -25,10 +26,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light  navbar__custom">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light  navbar__custom" >
             <div class="container">
               <a class="navbar-brand" href="#">
-                  <img src="assets/img//logo.svg">
+                  <img src="assets/img/logo.svg" class="img-responsive groom_school--logo">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -60,13 +61,17 @@
     <main>
         <section id="home">
             <div class="container banner_rd">
+              <img src="assets/img/bg_banner.jpg" class="sm-only bg_image_banner">
                  <div class="banner">
                       <div class="row">
-                          <div class="col-md-6  col-sm-12">
+                          <div class="col-md-6  col-sm-12 sm-nopadding sm-nomargin">
                               <div class="banner_content ">
                                 <h1 class="text-white banner--heading"> Grooming Your Future!</h1>
-                                <p class="text-white banner--description">We’re working to change lives by imparting tech education and relevant skills</p>
-                                <button type="button" class="banner--button">Apply Now</button>
+                                <p class="text-white banner--description">Groom School is an online school for grooming undergraduate or recently graduated students for exploring different career paths, getting a job or building and launching a startup.</p> 
+                                <a class="typeform-share button banner--button" href="https://form.typeform.com/to/cu7FIlpq?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">
+                                Apply Now
+                               </a>
+
                             </div>
                            
                           </div>
@@ -82,21 +87,21 @@
         <section id="process">
             <div class="container">
                 <div class="row pb-5">
-                    <div class="col-12 text-center mt-5">
+                    <div class="col-md-12 col-sm-12 col-xs-12 text-center mt-5">
                              <h2 class="section--heading"> Simple Process to <br> Get Started </h2>
                     </div>
                 </div>
                   <div class="row process_section">
-                      <div class="col-md-4">
+                      <div class="col-md-4 col-sm-12 card__row">
                         <img src="assets/img/arrow_1.svg" class="img-responsive arrow1 md-only">
                        <div class="process_card text-center">
                            <div class="process_card--icon">
                                 
                            </div>
                            <div class="process_card--content ">
-                                <div class="process_card--content__heading ">
-                                 <h3> Registration Form </h3>
-                                </div>
+                               
+                                  <h3 class="process_card--content__heading "> Registration Form </h3>
+                               
                                 <div class="process_card--content__description">
                                      <p class="text-center"> Fill in simple registration form with your educational details  and win a chance to secure scholarships </p>
                                 </div>
@@ -106,16 +111,15 @@
                        
                        </div>
                     
-                       <div class="col-md-4">
+                       <div class="col-md-4 col-sm-12 card__row">
                         <img src="assets/img/arrow_2.svg" class="img-responsive arrow2 md-only">
                         <div class="process_card text-center">
                             <div class="process_card--icon">
                                  
                             </div>
                             <div class="process_card--content ">
-                                 <div class="process_card--content__heading ">
-                                  <h3> Choose Track </h3>
-                                 </div>
+                             
+                                 <h3 class="process_card--content__heading ">Choose Track </h3>
                                  <div class="process_card--content__description">
                                       <p class="text-center"> Choose a track from 3 different   tracks according to  your future goal  and eligibility </p>
                                  </div>
@@ -123,15 +127,13 @@
  
                          </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-12 card__row">
                           <div class="process_card text-center">
                               <div class="process_card--icon">
                                    
                               </div>
                               <div class="process_card--content ">
-                                   <div class="process_card--content__heading ">
-                                    <h3> Skill Test </h3>
-                                   </div>
+                                    <h3  class="process_card--content__heading "> Skill Test </h3>
                                    <div class="process_card--content__description">
                                         <p class="text-center"> Set of tasks and test that needs to be submitted under 24 hours to secure your admission at groom school </p>
                                    </div>
@@ -149,12 +151,12 @@
         <section id="tracks">
             <div class="container">
                 <div class="row pb-5">
-                    <div class="col-12 text-center mt-5 wow animate__fadeInUp" data-wow-duration="1s">
+                    <div class="col-md-12 col-sm-12 col-xs-12 text-center mt-5 wow animate__fadeInUp" data-wow-duration="1s">
                              <h2 class="section--heading"> Tracks </h2>
                     </div>
 
-                    <div class="row">
-                      <div class="col-12 track_section wow animate__fadeInUp" data-wow-duration="1s">
+                    <div class="row md-only">
+                      <div class="col-md-12 col-sm-12 col-xs-12 track_section wow animate__fadeInUp" data-wow-duration="1s">
                         <ul class="track_nav">
                           <li id="career_exploration_item" class="track-item active"  onclick="changeTrack('career_exploration')">Career Exploration</li>
                           <li id="career_development_item" class="track-item"  onclick="changeTrack('career_development')">Career Development</li>
@@ -168,11 +170,11 @@
                       <div class="track_container">
 
                         <div id="career_exploration" class="track_tab ">
-                           <div class="row">
+                           <div class="row ">
                              <div class="col-md-3 col-sm-12 wow animate__fadeIn"  data-wow-duration="1s">
-                               <img class="career_img" src="assets/img/career.svg" alt="Career Exploration" class="img-responsive ">
+                               <img class="career_img md-only img-responsive" src="assets/img/career.svg" alt="Career Exploration" >
                              </div>
-                             <div class="col-md-8 col-sm-12">
+                             <div class="col-md-9 col-sm-12 col-xs-12">
                               <div class="accordion_section wow animate__fadeIn " data-wow-duration="1s">
                                 <h1 class="accordion__heading">Career <br> Exploration Track</h1> <br> <br>
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -183,23 +185,23 @@
                                       </button>
                                     </h2>
                                     <div id="question1" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                      <div class="accordion-body">  <span class="answer_text"> Fill in simple registration form with <br> your educational </span> </div>
+                                      <div class="accordion-body">  <span class="answer_text"> First and second year undergraduate students who are looking to explore different careers and are indecisive about where to proceed further are ideal candidates for this track. </span> </div>
                                     </div>
                                   </div>
                                   <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingTwo">
                                       <button class="accordion-button button_accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question2" aria-expanded="false" aria-controls="question2">
-                                        <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">    Who is eligible to apply </span>
+                                        <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">  What is the end goal to participate </span>
                                       </button>
                                     </h2>
                                     <div id="question2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                      <div class="accordion-body">  <span class="answer_text"> Fill in simple registration form with <br> your educational </span> </div>
+                                      <div class="accordion-body">  <span class="answer_text"> At the end of the program, you will learn all basic tech and non-technical skills required to proceed in your career. You would easily be able to land into an internship and volunteering roles in our community. <br> <br> Also, we will give you a skill-based certificate with complete analysis of your strengths and weaknesses which can be shown to any employer. </span> </div>
                                     </div>
                                   </div>
                                   <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingTwo">
                                       <button class="accordion-button button_accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">    Who is eligible to apply </span>
+                                        <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">   What will I learn </span>
                                       </button>
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -215,44 +217,44 @@
 
                         <div id="career_development" class="track_tab">
                           <div class="row">
-                            <div class="col-3">
-                              <img src="assets/img/career.svg" alt="Career Development">
+                            <div class="col-md-3 col-sm-12 wow animate__fadeIn"  data-wow-duration="1s">
+                              <img src="assets/img/career.svg" alt="Career Development " class="img-responsive md-only">
                             </div>
-                            <div class="col-8">
-                             <div class="accordion_section">
+                            <div class="col-md-8 col-sm-12">
+                            <div class="accordion_section wow animate__fadeIn " data-wow-duration="1s">
                                <h1 class="accordion__heading">Career <br> Development Track</h1> <br> <br>
-                               <div class="accordion accordion-flush" id="accordionFlushExample">
-                                 <div class="accordion-item">
-                                   <h2 class="accordion-header" id="flush-headingTwo">
-                                     <button class="accordion-button button_accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question1" aria-expanded="false" aria-controls="question1">
-                                       <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">    Who is eligible to apply </span>
-                                     </button>
-                                   </h2>
-                                   <div id="question1" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                     <div class="accordion-body">  <span class="answer_text"> Fill in simple registration form with <br> your educational </span> </div>
-                                   </div>
-                                 </div>
-                                 <div class="accordion-item">
-                                   <h2 class="accordion-header" id="flush-headingTwo">
-                                     <button class="accordion-button button_accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question2" aria-expanded="false" aria-controls="question2">
-                                       <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">    Who is eligible to apply </span>
-                                     </button>
-                                   </h2>
-                                   <div id="question2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                     <div class="accordion-body">  <span class="answer_text"> Fill in simple registration form with <br> your educational </span> </div>
-                                   </div>
-                                 </div>
-                                 <div class="accordion-item">
-                                   <h2 class="accordion-header" id="flush-headingTwo">
-                                     <button class="accordion-button button_accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                       <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">    Who is eligible to apply </span>
-                                     </button>
-                                   </h2>
-                                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                     <div class="accordion-body">  <span class="answer_text"> Fill in simple registration form with <br> your educational </span> </div>
-                                   </div>
-                                 </div>
-                               </div>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                      <button class="accordion-button button_accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question1" aria-expanded="false" aria-controls="question1">
+                                        <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">    Who is eligible to apply </span>
+                                      </button>
+                                    </h2>
+                                    <div id="question1" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">  <span class="answer_text"> First and second year undergraduate students who are looking to explore different careers and are indecisive about where to proceed further are ideal candidates for this track. </span> </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                      <button class="accordion-button button_accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question2" aria-expanded="false" aria-controls="question2">
+                                        <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">  What is the end goal to participate </span>
+                                      </button>
+                                    </h2>
+                                    <div id="question2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">  <span class="answer_text"> At the end of the program, you will learn all basic tech and non-technical skills required to proceed in your career. You would easily be able to land into an internship and volunteering roles in our community. <br> <br> Also, we will give you a skill-based certificate with complete analysis of your strengths and weaknesses which can be shown to any employer. </span> </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                      <button class="accordion-button button_accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <i class="fas fa-caret-right faq-caret"></i>  <span class="question_text">   What will I learn </span>
+                                      </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">  <span class="answer_text"> Fill in simple registration form with <br> your educational </span> </div>
+                                    </div>
+                                  </div>
+                                </div>
                                
                              </div>
                             </div>
@@ -261,11 +263,11 @@
 
                         <div id="build_track" class="track_tab">
                         <div class="row">
-                          <div class="col-3">
-                            <img src="assets/img/career.svg" alt="Career Development">
+                          <div class="col-md-3 col-sm-12 wow animate__fadeIn"  data-wow-duration="1s">
+                            <img src="assets/img/career.svg" alt="Career Development" class="md-only">
                           </div>
-                          <div class="col-8">
-                           <div class="accordion_section">
+                          <div class="col-md-8 col-sm-12">
+                          <div class="accordion_section wow animate__fadeIn " data-wow-duration="1s">
                              <h1 class="accordion__heading">Build Track</h1> <br> <br>
                              <div class="accordion accordion-flush" id="accordionFlushExample">
                                <div class="accordion-item">
@@ -307,11 +309,11 @@
 
                        <div id="launch_track" class="track_tab">
                       <div class="row">
-                        <div class="col-3">
-                          <img src="assets/img/career.svg" alt="Career Development">
+                        <div class="col-md-3 col-sm-12 wow animate__fadeIn"  data-wow-duration="1s">
+                          <img src="assets/img/career.svg" alt="Career Development" class="md-only">
                         </div>
-                        <div class="col-8">
-                         <div class="accordion_section">
+                        <div class="col-md-8 col-sm-12">
+                        <div class="accordion_section wow animate__fadeIn " data-wow-duration="1s">
                            <h1 class="accordion__heading">Launch  Track</h1> <br> <br>
                            <div class="accordion accordion-flush" id="accordionFlushExample">
                              <div class="accordion-item">
@@ -359,9 +361,72 @@
         </section>
 
         
+      <section id="call-to-action" class="ctc_section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 ">
+                 <p class="text-white cta_section--text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.  </p>
+              </div>
+              <div class="col-md-4">
+                <a class="typeform-share button banner--button cta_button" href="https://form.typeform.com/to/cu7FIlpq?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">
+                  Apply Now
+                 </a>
+              </div>
+            </div>
+          </div>
+      </section>
+
     </main>
     <footer>
+      <div class="footer_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 product__info">
+              <div class="footer_section__logo_container">
+                   <img src="assets/img/white_logo.png"  class="footer_section--logo img-responsive">
+              </div>
+            
+              <p class="text-white product__info--text">Groom School is an online school for grooming undergraduate or recently graduated students for exploring different career paths, getting a job or building and launching a startup.</p>
+       
 
+            </div>
+            <div class="col-md-3 product__info">
+            
+              <p class="text-white footer_section--heading">Links</p>
+                 <ul class="website_link">
+                   <li class="text-white"> Home </li>
+                   <li class="text-white"> Tracks </li>
+                   <li class="text-white"> Process </li>
+                 </ul>
+            </div>
+            <div class="col-md-4 product__info">
+             
+            
+              <p class="text-white footer_section--heading">Reach Us</p>
+              <p class="text-white footer_section--text"> Email : contact@groomschools.com</p>
+              <p class="text-white footer_section--text"> Contact Number : +91 9481XXXXXX</p>
+               <div class="social-icons-container">
+                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i> </a>
+                <a href="https://www.twitter.com" rel="noopener noreferrer" target="_blank" class="social-link"> <i class="fab fa-twitter"></i> </a>
+                <a href="https://www.instagram.com" rel="noopener noreferrer" target="_blank" class="social-link"> <i class="fab fa-linkedin-in"></i> </a>
+                <a href="https://www.linkedin.com" rel="noopener noreferrer" target="_blank" class="social-link"> <i class="fab fa-instagram"></i> </a>
+               </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__dark__bg">
+        <div class="container">
+          <div class="row  copyright__section">
+            <div class="col-md-10 ">
+              <p class="text-white"> © 2021 GirlScript Technologies Pvt. Ltd. All Rights Reserved </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+     
     </footer>
     <script src="js/main.js"></script>
   

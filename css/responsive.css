@@ -1,0 +1,271 @@
+
+@media(max-width:700px)
+{
+
+    * {
+       overflow-x: hidden;
+    }
+    section {
+        padding: 4vh 0vh;
+    }
+
+
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border:none; 
+    }
+
+    .groom_school--logo{
+        padding: 5%;
+        width: 80%;
+
+    }
+
+    .sm-only{
+        display:block !important;
+    }
+
+    .bg_image_banner{
+        position:absolute;
+        z-index: -5;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height:95vh;
+    }
+    .md-only{
+        display:none !important;
+    }
+
+    .sm-nomargin{
+        padding: 0%;
+    }
+
+    .girl_banner {
+        display: none;
+    }
+    
+    .banner {
+        
+        margin-top: 14%;
+        height: 88vh;
+        padding: 0%;
+       
+        background-color:var(--primary-color) ;
+        border-radius: 0px;
+        opacity: 0.95;
+    }
+
+    .banner--heading {
+        font-weight: 600;
+        margin-top: 24%;
+        padding-left: 5%;
+        font-size: 2.5rem;
+        line-height: 60px;
+        letter-spacing: -0.02em;
+    }
+
+    .banner--description {
+        font-weight: 200;
+        padding-top: 3%;
+        padding-left: 5%;
+        font-size: 1rem;
+        text-align:left;
+        line-height: 25px;
+    }
+
+    .banner_content {
+          max-width: 85% !important;
+    }
+    .banner--button {
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+        padding: 3% 32%;
+        font-size: 1rem;
+        margin-top: 5vh;
+        width: 100%;
+        margin-left: 2vh;
+    }
+
+    .banner_rd {
+        margin: 0% !important;
+        padding: 0%;
+    }
+    
+    .card__row{
+        margin: 0%;
+        padding: 0%;
+    }
+    .process_card {
+       
+        margin: 3vh 3vh;
+    }
+
+    .process_card--content__heading{
+        font-size: 1.3rem;
+    }
+
+    .process_card--icon {
+        min-height: 14vh;
+        margin: 5vw 12vw 8vw;
+        background: #F24611;
+        box-shadow: 0px 12px 12px -10px #f7ad97;
+        border-radius: 12px;
+    }
+
+    .track_section {
+        margin-top: 10%;
+    }
+
+    ul.track_nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        overflow: hidden;
+        display: none;
+        padding-left: 1%;
+    }
+    /*
+    .track-item {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 4rem;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #0A1428;
+        opacity: 0.3;
+        margin-left: 8vh;
+        cursor: pointer;
+    }
+
+    .track-item.active {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: left;
+        letter-spacing: -0.02em;
+        color: #0A1428;
+        opacity: 1;
+        line-height: 5vh;
+        margin-left: 8vh;
+        border-bottom: 4px solid var(--secondary-color);
+    } */
+
+
+    .track_container {
+        padding: 5% 0% 5% 2%;
+    }
+
+    .accordion_section {
+        margin-left: 5vw;
+        overflow: hidden !important;
+    }
+    .accordion_section:first-child {
+       margin-top: 6vh;
+    }
+
+    .track_tab{
+        display:block;
+   }
+
+
+   .banner--button{
+       padding-left: 15vh;
+   }
+
+   .accordion__heading{
+    overflow: hidden;
+   }
+
+   .section--heading {
+    font-size: 34px;
+}
+
+.navbar-collapse {
+    padding: 1vw 1vw;
+}
+
+.navbar-nav{
+    text-align: center;
+    font-size: 18px;
+}
+
+.nav-item {
+    border-bottom: 1px solid #f9f1ef;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+color: var(--primary-color);
+font-weight: bold;
+}
+
+.copyright__section{
+    padding: 2%;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.ctc_section{
+padding: 3%;
+}
+
+.cta_section--text{
+    font-size: 1.2rem;
+}
+
+.cta_button{
+    display:inline-block;
+    text-decoration:none;
+    background-color:white;
+    color:#F14612;
+    cursor:pointer;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:16px;
+    line-height:45px;
+    font-weight:bold;
+    margin-top:2vw;
+    margin-left:18vw;
+    text-align:center;
+    height:45px;
+    padding:0px 30px;
+    border-radius:4px;
+    max-width:60%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight:bold;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+
+.footer_section--heading{
+    font-size: 1.5rem;
+    padding-top: 3vh;
+}
+
+
+.product__info--text{
+    padding-top: 3vh;
+    width: 100%;
+}
+
+.social-icons-container{
+    padding-bottom: 3vh;
+}
+
+.footer_section--logo{
+    width: 65%;
+}
+
+.footer_section__logo_container{
+    margin-left: 0vw;
+    margin-top: 5vh;
+}
+} 
