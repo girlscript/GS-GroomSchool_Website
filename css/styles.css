@@ -222,12 +222,15 @@ border-bottom: 4px solid var(--secondary-color);
      display: none;
 }
 
+.career_img{
+    width: 20vw;
+}
 .track_container{
     padding: 5% 0% 5% 18% ;
 }
 
 .accordion_section{
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
 .accordion__heading{
@@ -321,7 +324,7 @@ text-align: justify;
 }
 
 .accordion-body {
-    padding-left: 12%;
+    padding-left: 8%;
 }
 
 .faq-caret{
@@ -430,4 +433,12 @@ text-align: justify;
 .product__info--text{
     padding-top: 3vh;
     width: 80%;
+}
+
+.footer_section--logo{
+    width: 45%;
+}
+
+.footer_section__logo_container{
+    padding-left: 5vw;
 }

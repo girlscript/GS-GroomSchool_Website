@@ -260,4 +260,12 @@ padding: 3%;
     padding-bottom: 3vh;
 }
 
+.footer_section--logo{
+    width: 65%;
+}
+
+.footer_section__logo_container{
+    margin-left: 0vw;
+    margin-top: 5vh;
+}
 } 
