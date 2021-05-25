@@ -3,8 +3,7 @@
 {
 
     * {
-       overflow-x: visible;
-      overflow-y: scroll; 
+       overflow-x: hidden;
     }
     section {
         padding: 4vh 0vh;
@@ -71,9 +70,9 @@
         font-weight: 200;
         padding-top: 3%;
         padding-left: 5%;
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-align:left;
-        line-height: 140%;
+        line-height: 25px;
     }
 
     .banner_content {
@@ -164,10 +163,85 @@
 
     .accordion_section {
         margin-left: 5vw;
+        overflow: hidden !important;
+    }
+    .accordion_section:first-child {
+       margin-top: 6vh;
     }
 
     .track_tab{
         display:block;
    }
+
+
+   .banner--button{
+       padding-left: 15vh;
+   }
+
+   .accordion__heading{
+    overflow: hidden;
+   }
+
+   .section--heading {
+    font-size: 34px;
+}
+
+.navbar-collapse {
+    padding: 1vw 1vw;
+}
+
+.navbar-nav{
+    text-align: center;
+    font-size: 18px;
+}
+
+.nav-item {
+    border-bottom: 1px solid #f9f1ef;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+color: var(--primary-color);
+font-weight: bold;
+}
+
+.copyright__section{
+    padding: 1%;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.ctc_section{
+padding: 3%;
+}
+
+.cta_section--text{
+    font-size: 1.2rem;
+}
+
+.cta_button{
+    display:inline-block;
+    text-decoration:none;
+    background-color:white;
+    color:#F14612;
+    cursor:pointer;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:16px;
+    line-height:45px;
+    font-weight:bold;
+    margin-top:2vw;
+    margin-left:18vw;
+    text-align:center;
+    height:45px;
+    padding:0px 30px;
+    border-radius:4px;
+    max-width:60%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight:bold;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
 
 } 
