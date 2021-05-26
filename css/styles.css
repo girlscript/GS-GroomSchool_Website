@@ -96,6 +96,15 @@ header .navbar__custom{
     -moz-osx-font-smoothing:grayscale;
 }
 
+.menu_button{
+    margin-top: 0vh;
+    margin-left: 1vh;
+    margin-right: 6vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-grow: 0.1;
+}
+
 
 .banner--button:hover{
     background-color:white ;
@@ -223,14 +232,15 @@ border-bottom: 4px solid var(--secondary-color);
 }
 
 .career_img{
-    width: 20vw;
+    margin-top: 5vh;
+    width: 30vw;
 }
 .track_container{
     padding: 5% 0% 5% 18% ;
 }
 
 .accordion_section{
-    margin-left: 10vw;
+    margin-left: 0vw;
 }
 
 .accordion__heading{
@@ -241,7 +251,9 @@ font-weight: bold;
 @media(min-width:700px)
 {
     .navbar__custom {
-        padding-top: 2%;  
+        padding-top: 1.5%;  
+        font-size: 18px;
+   
     }
     .navbar-nav :not(:first-child) {
         margin-left: 3vw;
@@ -426,7 +438,7 @@ text-align: justify;
 .website_link{
     list-style: none;
     font-size: 18px;
-    line-height: 2rem;
+    line-height: 2.5rem;
     padding-left: 0%;
 }
 

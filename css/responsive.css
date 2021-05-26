@@ -268,4 +268,17 @@ padding: 3%;
     margin-left: 0vw;
     margin-top: 5vh;
 }
+
+.question_text{
+    font-size: 1rem;
+}
+
+.accordion-button {
+    padding-left: 0.5rem;
+}
+
+.clearspace_smarphone{
+    padding: 0% !important;
+    margin: 0% !important;
+}
 } 
