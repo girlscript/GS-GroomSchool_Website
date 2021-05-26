@@ -41,6 +41,9 @@ section {
     display:none !important;
 }
 
+.wrap--schedule_section{
+    word-break: keep-all;
+}
 
 
 header .navbar__custom{
@@ -94,6 +97,15 @@ header .navbar__custom{
     font-weight:bold;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
+}
+
+.menu_button{
+    margin-top: 0vh;
+    margin-left: 1vh;
+    margin-right: 6vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-grow: 0.1;
 }
 
 
@@ -222,15 +234,23 @@ border-bottom: 4px solid var(--secondary-color);
      display: none;
 }
 
+.accordion-body_pl-03{
+    padding-left: 3% !important;
+}
 .career_img{
-    width: 20vw;
+    margin-top: 5vh;
+    width: 30vw;
 }
 .track_container{
-    padding: 5% 0% 5% 18% ;
+    padding: 5% 0% 5% 8% ;
+}
+
+.accordion-item {
+    border: none;
 }
 
 .accordion_section{
-    margin-left: 10vw;
+    margin-left: 0vw;
 }
 
 .accordion__heading{
@@ -241,7 +261,9 @@ font-weight: bold;
 @media(min-width:700px)
 {
     .navbar__custom {
-        padding-top: 2%;  
+        padding-top: 1.5%;  
+        font-size: 18px;
+   
     }
     .navbar-nav :not(:first-child) {
         margin-left: 3vw;
@@ -250,7 +272,6 @@ font-weight: bold;
     .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:before {
         border-bottom: 6px solid var(--secondary-color);
         width:40%;
-        margin-left: 1vw;
         color: var(--primary-color);
        
     }
@@ -312,8 +333,8 @@ color:#0A1428;
     font-family: Manrope;
 font-style: normal;
 font-weight: normal;
-font-size: 1rem;
-line-height: 140%;
+font-size: 1.1rem;
+line-height: 2rem;
 color: #6D6D6D;
 text-align: justify;
 }
@@ -426,7 +447,7 @@ text-align: justify;
 .website_link{
     list-style: none;
     font-size: 18px;
-    line-height: 2rem;
+    line-height: 2.5rem;
     padding-left: 0%;
 }
 
@@ -441,4 +462,9 @@ text-align: justify;
 
 .footer_section__logo_container{
     padding-left: 5vw;
+}
+
+.what_will_i_learn--section{
+    font-size: 1rem !important;
+     word-spacing: 1px;
 }
