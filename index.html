@@ -697,7 +697,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-8 ">
-                 <p class="text-white cta_section--text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.  </p>
+                 <p class="text-white cta_section--text"> Change your future today with Groom School. We have only 45 seats per cohort!  </p>
               </div>
               <div class="col-md-4">
                 <a class="typeform-share button banner--button cta_button" href="https://form.typeform.com/to/cu7FIlpq?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">
@@ -709,7 +709,7 @@
       </section>
 
     </main>
-    <footer id="contact">
+    <footer>
       <div class="footer_section">
         <div class="container">
           <div class="row">
@@ -726,18 +726,18 @@
             
               <p class="text-white footer_section--heading">Links</p>
                  <ul class="website_link">
-                   <li class="text-white"> Home </li>
-                   <li class="text-white"> Registration Process </li>
-                   <li class="text-white"> Tracks </li>
+                   <li class="text-white"> <a href="#" class="link"> Home </a> </li>
+                <li class="text-white">   <a href="#process" class="link">  Registration Process</li> 
+                   <li class="text-white"> <a href="#tracks" class="link"> Tracks  </a>  </li>
             
                  </ul>
             </div>
-            <div class="col-md-4 product__info">
+            <div class="col-md-4 product__info" id="contact">
              
             
               <p class="text-white footer_section--heading">Reach Us</p>
-              <p class="text-white footer_section--text"> Email : contact@groomschools.com</p>
-              <p class="text-white footer_section--text"> Contact Number : +91 9481XXXXXX</p>
+              <p class="text-white footer_section--text"> <a target="_blank" href="mailto:contact@groomschools.com" class="link">Email : contact@groomschools.com</a></p>
+              <p class="text-white footer_section--text"> <a href="tel:+918999917506" class="link">Contact Number : +91-8999917506</a></p>
                <div class="social-icons-container">
                 <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i> </a>
                 <a href="https://www.twitter.com" rel="noopener noreferrer" target="_blank" class="social-link"> <i class="fab fa-twitter"></i> </a>
@@ -801,8 +801,10 @@ return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewpo
 
 };
 
+
 $(document).ready(function(){
     $(window).scroll(function(){
+
 
         if ($('#career_exploration_item').isOnScreen()) {
             document.getElementById("track_menu_item").classList.add("active");
@@ -824,6 +826,8 @@ $(document).ready(function(){
         else {
           document.getElementById("home_menu_item").classList.remove("active");
         }
+
+
     });
 });
 
