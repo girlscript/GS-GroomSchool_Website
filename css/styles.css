@@ -50,6 +50,17 @@ header .navbar__custom{
     background-color: white;
 }
 
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.4s;
+    font-weight:500;
+}
 
 
 .banner {

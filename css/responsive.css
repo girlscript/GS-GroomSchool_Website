@@ -10,7 +10,7 @@
     }
 
 
-
+ 
     .navbar-light .navbar-toggler {
         color: rgba(0,0,0,.55);
         border:none; 
@@ -294,4 +294,10 @@ padding: 3%;
 .answer_text {
     font-size: 1rem;
 } 
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.55); 
+     font-weight: normal; 
+    }
+
 }
