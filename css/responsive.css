@@ -54,7 +54,7 @@
        
         background-color:var(--primary-color) ;
         border-radius: 0px;
-        opacity: 0.95;
+        opacity: 0.92;
     }
 
     .banner--heading {
@@ -161,6 +161,10 @@
         padding: 5% 0% 5% 2%;
     }
 
+    .accordion__heading{
+        margin-top: 10vw;
+        margin-left: 5vw;
+    }
     .accordion_section {
         margin-left: 5vw;
         overflow: hidden !important;
@@ -299,5 +303,8 @@ padding: 3%;
     color: rgba(0,0,0,.55); 
      font-weight: normal; 
     }
+.menu_button{
+    margin-left: 0vh;
+}
 
 }

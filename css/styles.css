@@ -249,7 +249,7 @@ border-bottom: 4px solid var(--secondary-color);
     padding-left: 3% !important;
 }
 .career_img{
-    margin-top: 5vh;
+    margin-top: 0vh;
     width: 30vw;
 }
 .track_container{
@@ -262,6 +262,7 @@ border-bottom: 4px solid var(--secondary-color);
 
 .accordion_section{
     margin-left: 0vw;
+    margin-top: 3vw;
 }
 
 .accordion__heading{
