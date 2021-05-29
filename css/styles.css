@@ -155,13 +155,16 @@ padding: 3vh 3vh;
     
 }
 
+
 .process_card--icon{
     min-height: 15vh;
     margin:5vw 6vw 3vw;
     background: #F24611;
 box-shadow: 0px 22px 22px -10px #F7AD97;
 border-radius: 12px;
+padding-top: 3.5vh;
 }
+
 
 .process_card--content__heading{
     font-weight: bold;
@@ -292,6 +295,10 @@ font-weight: bold;
         padding: 0 !important;
         line-height: 4vh;
         color: var(--primary-color);
+    }
+
+    .pt-md-15{
+        padding-top: 15vh;
     }
 
 } 
