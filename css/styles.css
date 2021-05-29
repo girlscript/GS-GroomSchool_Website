@@ -294,6 +294,10 @@ font-weight: bold;
         color: var(--primary-color);
     }
 
+    .pt-md-15{
+        padding-top: 15vh;
+    }
+
 } 
 
 @media(min-width:1920px)
