@@ -108,11 +108,13 @@
     }
 
     .process_card--icon {
-        min-height: 14vh;
+        min-height: 15vh;
         margin: 5vw 12vw 8vw;
         background: #F24611;
         box-shadow: 0px 12px 12px -10px #f7ad97;
         border-radius: 12px;
+        padding-top: 3vh;
+        padding-left: 1vh;
     }
 
     .track_section {
