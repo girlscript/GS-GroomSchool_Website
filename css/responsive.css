@@ -355,3 +355,68 @@ padding: 3%;
     }
 
 } */
+
+@media screen and (min-height:750px) 
+{
+    .girl_banner{
+        position: absolute;
+        right: 13%;
+        bottom: 2vw;
+        width: 50vh;
+    }
+}
+
+@media screen and (min-height:800px) 
+{
+    .girl_banner{
+        position: absolute;
+        right: 12%;
+        bottom: 4.5vw;
+        width: 50vh;
+    }
+}
+
+@media screen and (min-width:1366px)  and (max-width:1400px)
+{
+    .girl_banner{
+        position: absolute;
+        right: 15%;
+        bottom: 0vw;
+        width: 56vh;
+    }
+
+
+.banner {
+    margin-top: 10%;
+    height: 79vh;
+    background-color:var(--primary-color) ;
+    border-radius: 22px;
+}
+
+.banner_content{
+    padding: 4vw 5vw 5vw 8vw;
+}
+
+.banner--heading{
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 70px;
+    letter-spacing: 0.1rem;
+}
+
+.banner--description{
+    padding-top: 2%;
+}
+
+.arrow1{
+    position: absolute;
+    top: 158vh;
+    left: 30vw;
+}
+
+.arrow2{
+    position: absolute;
+    top: 158vh;
+    left: 54vw;
+}
+}
