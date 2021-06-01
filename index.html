@@ -40,7 +40,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light  navbar__custom" >
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light  navbar__custom" id="navbar__section" >
             <div class="container">
               <a class="navbar-brand" href="#">
                   <img src="assets/img/logo.svg" class="img-responsive groom_school--logo">
@@ -733,7 +733,7 @@
           <div class="row">
             <div class="col-md-5 product__info">
               <div class="footer_section__logo_container">
-                   <img src="assets/img/white_logo.png"  class="footer_section--logo img-responsive">
+                   <img src="assets/img/white_groom_school.svg"  class="footer_section--logo img-responsive">
               </div>
             
               <p class="text-white product__info--text">Groom School is an online school for grooming undergraduate or recently graduated students for exploring different career paths, getting a job or building and launching a startup.</p>
@@ -754,8 +754,8 @@
              
             
               <p class="text-white footer_section--heading">Reach Us</p>
-              <p class="text-white footer_section--text"> <a target="_blank" href="mailto:groomschool@girlscript.tech" class="link">Email : groomschool@girlscript.tech</a></p>
-              <p class="text-white footer_section--text"> <a href="tel:+918999917506" class="link">Contact Number : +91-8999917506</a></p>
+              <p class="text-white footer_section--text"> <a target="_blank" href="mailto:groomschool@girlscript.tech" class="link"><i class="far fa-envelope"></i> &nbsp;  groomschool@girlscript.tech</a></p>
+              <p class="text-white footer_section--text"> <a href="https://api.whatsapp.com/send/?phone=918999917506&text=Hello%20Groom%20School%20Team&app_absent=0" class="link"> <i class="fab fa-whatsapp"></i> &nbsp;  +91-8999917506</a></p>
                <div class="social-icons-container">
                 <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i> </a>
                 <a href="https://twitter.com/GroomSchools" rel="noopener noreferrer" target="_blank" class="social-link"> <i class="fab fa-twitter"></i> </a>
@@ -840,11 +840,20 @@ $(document).ready(function(){
             document.getElementById("contact_menu_item").classList.remove("active");
             document.getElementById("track_menu_item").classList.remove("active");
         } 
+      
         
         else {
           document.getElementById("home_menu_item").classList.remove("active");
         }
 
+        if ($('#home').isOnScreen()) {
+          document.getElementById("navbar__section").classList.remove("navbar_shadow");
+        } 
+        else
+        {
+         
+          document.getElementById("navbar__section").classList.add("navbar_shadow");
+        }
 
     });
 });
