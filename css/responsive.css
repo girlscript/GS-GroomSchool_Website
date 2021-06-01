@@ -309,7 +309,7 @@ padding: 3%;
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
     .md-only{
         display:none !important;
     }
@@ -354,4 +354,4 @@ padding: 3%;
         padding: 4vw 5vw 5vw 8vw;
     }
 
-}
+} */
