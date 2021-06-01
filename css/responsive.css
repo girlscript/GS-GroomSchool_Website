@@ -1,5 +1,5 @@
 
-@media(max-width:700px)
+@media(max-width:480px)
 {
 
     * {
@@ -9,8 +9,6 @@
         padding: 4vh 0vh;
     }
 
-
- 
     .navbar-light .navbar-toggler {
         color: rgba(0,0,0,.55);
         border:none; 
@@ -308,5 +306,52 @@ padding: 3%;
 .menu_button{
     margin-left: 0vh;
 }
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
+    .md-only{
+        display:none !important;
+    }
+
+    .banner--heading {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 87px;
+        letter-spacing: -0.02em;
+    }
+
+    .banner--description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .sm-nomargin{
+        padding: 0%;
+    }
+
+
+    .banner_rd {
+        margin: 0% !important;
+        padding: 0%;
+    }
+
+
+
+    #home {
+        padding: 2vh 0vh;
+    }
+
+    .banner {
+        margin-top: 10%;
+        height: 80vh;
+        background-color: var(--primary-color);
+        border-radius:0px;
+    }
+
+    .banner_content {
+        padding: 4vw 5vw 5vw 8vw;
+    }
 
 }
