@@ -420,3 +420,36 @@ padding: 3%;
     left: 54vw;
 }
 }
+
+@media screen and (min-width:1400px)  and (max-width:1800px)
+{
+    .girl_banner{
+        position: absolute;
+        right: 10%;
+        bottom: 3vw;
+        width: 54vh;
+    }
+}
+
+
+@media screen and (min-width:1520px)  and (min-height:760px)
+{
+    .girl_banner{
+        position: absolute;
+        right: 10%;
+        bottom: 2vw;
+        width: 54vh;
+    }
+}
+
+
+@media screen and (min-width:1800px)  
+{
+    .girl_banner{
+        position: absolute;
+        right: 20%;
+        bottom: 4.2vw;
+        width: 50vh;
+    }
+}
+
