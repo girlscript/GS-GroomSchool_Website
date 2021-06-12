@@ -55,6 +55,7 @@
         opacity: 0.92;
     }
 
+
     .banner--heading {
         font-weight: 600;
         margin-top: 24%;
@@ -87,6 +88,16 @@
         margin-left: 2vh;
     }
 
+    .event-join--button{
+        background-color: var(--primary-color);
+        color: white;
+       }
+    
+    .event-join--button:hover{
+     background-color: var(--secondary-color);
+     color: white;
+    }
+
     .banner_rd {
         margin: 0% !important;
         padding: 0%;
@@ -95,6 +106,30 @@
     .card__row{
         margin: 0%;
         padding: 0%;
+    }
+
+    #upcoming-events{
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    .event-card {
+        box-shadow:none;
+    border: none;
+    
+    }
+
+    .event-button-group{
+        margin-top: 0%;
+    }
+
+.event-join--button{
+margin-left: 0% !important;
+}
+    
+    .club_house_image{
+        width: 60%;
+       
     }
     .process_card {
        
