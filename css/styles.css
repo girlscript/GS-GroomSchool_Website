@@ -560,3 +560,18 @@ text-align: justify;
     font-size: 1rem !important;
      word-spacing: 1px;
 }
+
+#schedule_call {
+    padding-top: 0vh;
+}
+
+.calendly_link{
+    text-decoration: none;
+    color: #091528;
+    transition: 0.2s;
+}
+
+.calendly_link:hover{
+    color: #0e459c;
+  
+}
