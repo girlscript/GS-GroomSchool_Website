@@ -9,6 +9,11 @@
         padding: 4vh 0vh;
     }
 
+    .need_help_text{
+        font-size: 1.0rem;
+        padding: 0% 2%;
+    }
+
     .navbar-light .navbar-toggler {
         color: rgba(0,0,0,.55);
         border:none; 
@@ -214,7 +219,7 @@ margin-left: 0% !important;
 
 
    .banner--button{
-       padding-left: 15vh;
+       padding-left: 13vh;
    }
 
    .accordion__heading{
