@@ -220,3 +220,20 @@
     line-height: 1.3em;
 }
 }
+
+.ctc_section {
+    background-color: var(--secondary-color);
+    padding: 1%;
+}
+.cta_section--text {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 0.8%;
+    text-decoration: none !important;
+    
+}
+
+
+.link_faq {
+    text-decoration: none;
+}
